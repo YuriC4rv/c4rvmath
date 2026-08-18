@@ -71,5 +71,65 @@ A c4rvmath é um projeto de código aberto e incentiva a evolução contínua da
 4. Abra um Pull Request detalhando as melhorias aplicadas para revisão.
 
 ---
+## Como usar a c4rvmath no seu projeto
 
+Para começar a usar as funções matemáticas da biblioteca, você precisa baixar o arquivo .jar e adicioná-lo às dependências do seu projeto.
 
+### Pré-requisito
+* Java JDK 17 ou superior instalado na máquina.
+
+---
+
+### Passo 1: Baixar o arquivo
+Acesse a página da versão estável no link abaixo, vá até a seção Assets no final da página e faça o download do arquivo c4rvmath.jar:
+
+https://github.com/YuriC4rv/c4rvmath/releases/tag/v1.0.0
+
+---
+
+### Passo 2: Configurar na sua IDE
+
+Siga as instruções abaixo de acordo com o ambiente de desenvolvimento que você utiliza:
+
+#### No Eclipse
+1. Na barra lateral (Package Explorer), clique com o botão direito no seu projeto e selecione Properties.
+2. No menu esquerdo, selecione Java Build Path.
+3. Clique na aba Libraries na parte superior da janela.
+4. Clique na opção Classpath para selecioná-la.
+5. No lado direito, clique em Add External JARs... e selecione o arquivo c4rvmath.jar que foi baixado.
+6. Clique em Apply and Close para salvar.
+
+#### No VS Code
+1. Na barra lateral esquerda, navegue até a aba Java Projects.
+2. Localize a seção Referenced Libraries.
+3. Clique no botão de + (Plus) que aparece ao passar o ponteiro do mouse sobre ela.
+4. Selecione o arquivo c4rvmath.jar no seu computador.
+
+#### No IntelliJ IDEA
+1. Abra as configurações do projeto em File > Project Structure.
+2. No menu esquerdo, clique em Modules e mude para a aba Dependencies.
+3. Clique no botão de + do lado direito e escolha JARs or Directories...
+4. Selecione o arquivo c4rvmath.jar e clique em Apply.
+
+---
+
+### Passo 3: Executar via Linha de Comando (Sem IDE)
+Se você compila e executa seus programas manualmente pelo terminal, inclua o arquivo JAR utilizando o parâmetro de classpath (-cp):
+
+No Linux ou Mac:
+```bash
+# Para compilar
+javac -cp ".:c4rvmath.jar" Main.java
+
+# Para rodar
+java -cp ".:c4rvmath.jar" Main
+```
+
+No Windows:
+```cmd
+# Para compilar
+javac -cp ".;c4rvmath.jar" Main.java
+
+# Para rodar
+java -cp ".;c4rvmath.jar" Main
+```
