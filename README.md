@@ -71,7 +71,7 @@ A c4rvmath é um projeto de código aberto e incentiva a evolução contínua da
 4. Abra um Pull Request detalhando as melhorias aplicadas para revisão.
 
 ---
-## 🚀 Instalação (Uso do arquivo JAR)
+## Instalação (Uso do arquivo JAR)
 
 Para utilizar a `c4rvmath` no seu projeto, você precisa baixar o arquivo `.jar` e adicioná-lo às dependências do seu ambiente de desenvolvimento.
 
