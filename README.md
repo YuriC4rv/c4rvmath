@@ -71,4 +71,35 @@ A c4rvmath é um projeto de código aberto e incentiva a evolução contínua da
 4. Abra um Pull Request detalhando as melhorias aplicadas para revisão.
 
 ---
-:)
+## 🚀 Instalação (Uso do arquivo JAR)
+
+Para utilizar a `c4rvmath` no seu projeto, você precisa baixar o arquivo `.jar` e adicioná-lo às dependências do seu ambiente de desenvolvimento.
+
+### 1. Download do JAR
+Acesse a página de **[Release c4rvmath v1.0.0](https://github.com/YuriC4rv/c4rvmath/releases/tag/v1.0.0)** e, na seção **Assets**, faça o download do arquivo `c4rvmath.jar`.
+
+### 2. Adicionando ao seu projeto
+
+Escolha o método dependendo da IDE que você está utilizando:
+
+#### No Eclipse
+1. No menu **Package Explorer**, clique com o botão direito sobre o seu projeto e selecione **Properties** (ou pressione `Alt + Enter`).
+2. No menu esquerdo, clique em **Java Build Path**.
+3. Acesse a aba **Libraries** na parte superior.
+4. Se o seu projeto usar módulos (Java 9+), selecione **Classpath**. Se for um projeto antigo, selecione apenas a lista.
+5. Clique no botão **Add External JARs...** do lado direito.
+6. Selecione o arquivo `c4rvmath.jar` que você baixou e clique em **Open**.
+7. Clique em **Apply and Close**.
+
+#### No VS Code
+1. No menu lateral, expanda a aba **Java Projects**.
+2. Procure pela seção **Referenced Libraries** e clique no ícone de **+** (Plus).
+3. Selecione o arquivo `c4rvmath.jar` que você baixou.
+
+#### No IntelliJ IDEA
+1. Vá em **File** > **Project Structure** (ou pressione `Ctrl + Alt + Shift + S`).
+2. Clique em **Modules** no menu esquerdo e vá na aba **Dependencies**.
+3. Clique no ícone de **+** e selecione **JARs or Directories...**.
+4. Escolha o arquivo `c4rvmath.jar` e clique em **Apply**.
+
+
