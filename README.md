@@ -133,3 +133,4 @@ javac -cp ".;c4rvmath.jar" Main.java
 # Para rodar
 java -cp ".;c4rvmath.jar" Main
 ```
+(Para saber todos os cálculos disponíveis, use MathUtils.exibirManual();
