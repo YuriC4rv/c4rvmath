@@ -36,28 +36,22 @@ public class ExemploDireto {
 Por não possuir amarração com o teclado dentro do core, o desenvolvedor possui total liberdade para criar a sua própria lógica de captura personalizada antes de acionar o motor:
 
 ```java
-import java.util.Scanner;
+package com.c4rvmath.core;
 import com.c4rvmath.core.MathUtils;
+public class Teste {
 
-public class App {
-    public static void main(String[] args) {
-        Scanner teclado = new Scanner(System.in);
-        
-        System.out.print("Informe o valor A: ");
-        double a = teclado.nextDouble();
-        
-        System.out.print("Informe o operador (+ ou -): ");
-        String op = teclado.next();
-        
-        System.out.print("Informe o valor B: ");
-        double b = teclado.nextDouble();
-        
-        // O motor da c4rvmath processa os parâmetros limpos instantaneamente
-        double resultado = MathUtils.calcular(a, op, b);
-        
-        System.out.println("\n[c4rvmath] Resultado: " + resultado);
-        teclado.close();
-    }
+	public static void main(String[] args) {
+		
+		double valor1 = MathUtils.lerNumero("Digite o primeiro valor: ");
+		
+		String operador = MathUtils.lerOperador("Digite o operador: ");
+		
+		double valor2 = MathUtils.lerNumero("Digite o segundo valor: ");
+		
+		double resultado = MathUtils.calcular(valor1, operador, valor2);
+		System.out.println("O resultado é: " + resultado);
+	}
+
 }
 ```
 
