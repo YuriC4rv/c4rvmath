@@ -8,7 +8,6 @@ A c4rvmath elimina os códigos repetitivos (boilerplate) e a verbosidade tradici
 
 * **Motor de Cálculo Puro:** Processamento direto através de chamadas estáticas rápidas, eliminando a necessidade de instanciação de objetos (new).
 * **Segurança DX (Developer Experience):** Tratamento interno de strings com remoção de espaços acidentais através do método trim e validações nativas.
-* **Arquitetura Desacoplada:** Independência total de fluxos rígidos de entrada e saída (como Scanner ou System.out), garantindo integração imediata com qualquer arquitetura de software.
 
 ## Como Usar a Biblioteca
 
