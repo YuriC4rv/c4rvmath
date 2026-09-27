@@ -304,7 +304,7 @@ c4rvmath-1.1.1.jar
 4. Abra a aba **Libraries**.
 5. Selecione **Classpath**.
 6. Clique em **Add External JARs...**.
-7. Selecione `c4rvmath-1.1.0.jar`.
+7. Selecione `c4rvmath-1.1.1.jar`.
 8. Clique em **Apply and Close**.
 
 ### VS Code
@@ -312,7 +312,7 @@ c4rvmath-1.1.1.jar
 1. Abra a seção **Java Projects**.
 2. Localize **Referenced Libraries**.
 3. Clique em **+**.
-4. Selecione `c4rvmath-1.1.0.jar`.
+4. Selecione `c4rvmath-1.1.1.jar`.
 
 ### IntelliJ IDEA
 
@@ -320,7 +320,7 @@ c4rvmath-1.1.1.jar
 2. Abra **Modules → Dependencies**.
 3. Clique em **+**.
 4. Selecione **JARs or Directories...**.
-5. Escolha `c4rvmath-1.1.0.jar`.
+5. Escolha `c4rvmath-1.1.1.jar`.
 6. Clique em **Apply**.
 
 ---
@@ -330,15 +330,15 @@ c4rvmath-1.1.1.jar
 ### Linux / macOS
 
 ```bash
-javac -cp ".:c4rvmath-1.1.0.jar" Main.java
-java -cp ".:c4rvmath-1.1.0.jar" Main
+javac -cp ".:c4rvmath-1.1.1.jar" Main.java
+java -cp ".:c4rvmath-1.1.1.jar" Main
 ```
 
 ### Windows
 
 ```cmd
-javac -cp ".;c4rvmath-1.1.0.jar" Main.java
-java -cp ".;c4rvmath-1.1.0.jar" Main
+javac -cp ".;c4rvmath-1.1.1.jar" Main.java
+java -cp ".;c4rvmath-1.1.1.jar" Main
 ```
 
 ---
@@ -400,6 +400,3 @@ A C4RVMATH é um projeto aberto à evolução e colaboração.
 
 ---
 
-## Licença
-
-Consulte o arquivo de licença deste repositório para informações sobre uso, modificação e distribuição da C4RVMATH.
