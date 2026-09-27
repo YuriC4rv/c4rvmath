@@ -289,7 +289,7 @@ A versão atual da biblioteca pode ser encontrada na página de releases:
 Arquivo:
 
 ```text
-c4rvmath-1.1.0.jar
+c4rvmath-1.1.1.jar
 ```
 
 ---
